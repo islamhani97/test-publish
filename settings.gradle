@@ -1,0 +1,3 @@
+rootProject.name = 'text-generator-project'
+include 'textgenerator'
+

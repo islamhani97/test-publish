@@ -15,7 +15,7 @@ jobs:
 
       - name: Publish artifact
         env:
-          GITHUB_ACTOR: ${{ islamhani97 }}
+          GITHUB_ACTOR: ${{ "islamhani97" }}
           GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
 
         # The GITHUB_REF tag comes in the format 'refs/tags/xxx'.
